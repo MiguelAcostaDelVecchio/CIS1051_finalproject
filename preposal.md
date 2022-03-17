@@ -2,7 +2,7 @@
 
 ## What idea(s) do you have for your final project?
 
-Hangman or Space Invaders game
+Hangman, Space Invaders game, Stock/Crytocurrency Trading Robot
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
