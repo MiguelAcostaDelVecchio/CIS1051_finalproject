@@ -1,1 +1,3 @@
-# CIS1051_finalproject
+# Stock/Cryptocurrency Trading Robot
+
+## What is the purpose of the project?
