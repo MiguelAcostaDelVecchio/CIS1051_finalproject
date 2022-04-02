@@ -1,1 +1,2 @@
 What is a GBM MonteCarlo?: https://www.investopedia.com/articles/07/montecarlo.asp
+How to do a GBM MonteCarlo?: https://towardsdatascience.com/simulating-stock-prices-in-python-using-geometric-brownian-motion-8dfd6e8c6b18

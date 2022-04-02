@@ -18,9 +18,9 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 # Range from which data will be taken
-start_date = "2021-01-01"
-end_date = "2021-12-31"
-pred_date = "2022-01-31"
+start_date = "2020-01-01"
+end_date = "2020-12-31"
+pred_date = "2021-12-20"
 
 # ETFs that track the S&P500 include: VOO, IVV, and SPLG
 stock = input("Please input stock to analyze: ").upper()
@@ -76,11 +76,41 @@ for ele in range(0,len(t)):
         returns.append((np_data[ele] - np_data[ele - 1]) / np_data[-1])
 # print(returns)
 mu = np.mean(returns)
-print(mu)
+# print(mu)
 
 # Evaluate Sigma
 sigma = np.std(returns)
-print(sigma)
+# print(sigma)
 
+# Evaluate b
+num_simulations = 50
+b = {str(num): np.random.normal(0, 1, int(N)) for num in range(1, num_simulations + 1)}
+# print(b)
 
+# Evaluate W
+W = {str(num): b[str(num)].cumsum() for num in range(1, num_simulations + 1)}
+# print(W)
 
+# Evaluating drift and diffusion
+drift = (mu - 0.5 * sigma**2) * t
+# print("drift:\n", drift)
+diffusion = {str(num): sigma * W[str(num)] for num in range(1, num_simulations + 1)}
+# print("diffusion:\n", diffusion)
+
+S = np.array([So * np.exp(drift + diffusion[str(num)]) for num in range(1, num_simulations + 1)])
+S = np.hstack((np.array([[So] for num in range(num_simulations)]), S))
+# print(S)
+
+# Plotting the simulations
+plt.figure(figsize=(10, 8))
+
+for i in range(num_simulations):
+    plt.title("Daily Volatility: " + str(sigma))
+    plt.plot(pd.date_range(start=end_date,
+                           end=pred_date, freq='D').map(lambda x:
+                                                            x if x.isoweekday() in range(1, 6) else np.nan).dropna(),
+             S[i, :])
+    plt.ylabel('Stock Prices')
+    plt.xlabel('Prediction Days')
+
+plt.show()
