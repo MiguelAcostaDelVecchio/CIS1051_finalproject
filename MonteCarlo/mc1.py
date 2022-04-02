@@ -18,9 +18,10 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 # Range from which data will be taken
-start_date = "2020-01-01"
-end_date = "2020-12-31"
-pred_date = "2021-12-20"
+start_date = "2021-01-01"
+end_date = "2021-12-31"
+# pred_date = "2022-12-19" # Date for a stock
+pred_date = "2023-05-26" # Date for crypto
 
 # ETFs that track the S&P500 include: VOO, IVV, and SPLG
 stock = input("Please input stock to analyze: ").upper()
@@ -83,7 +84,7 @@ sigma = np.std(returns)
 # print(sigma)
 
 # Evaluate b
-num_simulations = 50
+num_simulations = 30000
 b = {str(num): np.random.normal(0, 1, int(N)) for num in range(1, num_simulations + 1)}
 # print(b)
 
@@ -103,7 +104,6 @@ S = np.hstack((np.array([[So] for num in range(num_simulations)]), S))
 
 # Plotting the simulations
 plt.figure(figsize=(10, 8))
-
 for i in range(num_simulations):
     plt.title("Daily Volatility: " + str(sigma))
     plt.plot(pd.date_range(start=end_date,
@@ -112,5 +112,18 @@ for i in range(num_simulations):
              S[i, :])
     plt.ylabel('Stock Prices')
     plt.xlabel('Prediction Days')
-
 plt.show()
+
+# What is the probability of the stock price going up by at least 20% after 1 year?
+cnt = 0
+threshold = 0.2
+for i in range(num_simulations):
+    if threshold >= 1:
+        if (S[i, -1]/So) > threshold:
+            cnt += 1
+    else:
+        if (S[i, -1]/So) < threshold:
+            cnt += 1
+prob = cnt/num_simulations
+print("Initial price of {} is ${}".format(stock, So))
+print("The probability that the stock price will go up/down by {}% at the end of 2022 is {}%".format(round((threshold-1)*100,2), prob*100))
