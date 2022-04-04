@@ -5,12 +5,17 @@ import matplotlib.pyplot as plt
 from stock_analysis import *
 
 # Range from which data will be taken:
+# Analyzing data from 2020 and predicting 2021 results...
+start_date = "2019-01-01"
+end_date = "2019-12-31"
+pred_date = "2020-12-26"  # Date for a stock (stock market is about 250 days/year of information)
+# pred_date = "2023-05-26" # Date for crypto (Crypto is 365 days/year of information)
 
 # Analyzing data from 2021 and predicting 2022 results...
-start_date = "2020-01-01"
-end_date = "2020-12-31"
-pred_date = "2021-12-26"  # Date for a stock (stock market is about 250 days/year of information)
-# pred_date = "2023-05-26" # Date for crypto (Crypto is 365 days/year of information)
+# start_date = "2020-01-01"
+# end_date = "2020-12-31"
+# pred_date = "2021-12-26"  # Date for a stock (stock market is about 250 days/year of information)
+# pred_date = "Put 2021 date here..." # Date for crypto (Crypto is 365 days/year of information)
 
 
 # Analyzing data from 2021 and predicting 2022 results...
@@ -30,8 +35,8 @@ print("\n[------------------- Downloading all stock data from yfinance ---------
 data = yf.download(tickers=comp_stocks, group_by="ticker", start=start_date,
                    end=end_date)
 
-real_data = yf.download(tickers=comp_stocks, group_by="ticker", start="2021-12-20",
-                   end="2021-12-30")
+real_data = yf.download(tickers=comp_stocks, group_by="ticker", start=pred_date,
+                   end="2020-12-30")
 
 analysis_results = []
 stock_initial_prices = []
@@ -60,11 +65,11 @@ for ticker in analysis_results:
 
 # suggestions = [ticker_symbol, True/False] # True if we should buy the stock and False if we should not
 
-print("Here are the probabilities of the stocks:")
-print(confidence)
+# print("Here are the probabilities of the stocks:")
+# print(confidence)
 
-print("\nHere are the suggestions: ")
-print(suggestions)
+# print("\nHere are the suggestions: ")
+# print(suggestions)
 
 real_results = []
 for ticker in comp_stocks.split():
@@ -82,12 +87,35 @@ for num in range(0,len(real_results)):
         if real_results[num][1] > 1.2*stock_initial_prices[num] and suggestions[num][1] == "Buy":
             predicted_correctly += 1
             num_predictions += 1
+            print("\nTicker Symbol:{}\tSuggestion:{}\t20% Gain Price:{}\tReal Price:{}\tDecision: {}".format(suggestions[num][0],
+                                                                                                   suggestions[num][1],
+                                                                                                   1.2 *
+                                                                                                   stock_initial_prices[
+                                                                                                       num],
+                                                                                                   real_results[num][1],
+                                                                                                    "Predicted Correctly 1st Step"))
         elif real_results[num][1] < 1.2*stock_initial_prices[num] and suggestions[num][1] == "Next stock":
             predicted_correctly += 1
             num_predictions += 1
+            print("\nTicker Symbol:{}\tSuggestion:{}\t20% Gain Price:{}\tReal Price:{}\tDecision: {}".format(
+                suggestions[num][0],
+                suggestions[num][1],
+                1.2 *
+                stock_initial_prices[
+                    num],
+                real_results[num][1],
+                "Predicted Correctly 2nd Step"))
         else:
             predicted_incorrectly += 1
             num_predictions += 1
+            print("\nTicker Symbol:{}\tSuggestion:{}\t20% Gain Price:{}\tReal Price:{}\tDecision: {}".format(
+                suggestions[num][0],
+                suggestions[num][1],
+                1.2 *
+                stock_initial_prices[
+                    num],
+                real_results[num][1],
+                "Predicted INCorrectly"))
     else:
         print("Ticker symbols of stocks are not matching...")
 
