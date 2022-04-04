@@ -8,119 +8,119 @@ Starting Monte Carlo simulation all the stocks in the DOW. Number of simulations
 [------------------- Monte Carlo simulation of all stocks completed successfully -------------------]
 
 Price of AXP at which simulation begins is $124.30000305175781
-The probability that the stock price will go up/down by 20.0% in one year is 58.086000000000006%
+The probability that the stock price will go up/down by 20.0% in one year is 58.142%
 
 
 Price of AMGN at which simulation begins is $240.27000427246094
-The probability that the stock price will go up/down by 20.0% in one year is 50.554%
+The probability that the stock price will go up/down by 20.0% in one year is 50.658%
 
 
 Price of AAPL at which simulation begins is $72.87999725341797
-The probability that the stock price will go up/down by 20.0% in one year is 92.83200000000001%
+The probability that the stock price will go up/down by 20.0% in one year is 93.15%
 
 
 Price of BA at which simulation begins is $326.3999938964844
-The probability that the stock price will go up/down by 20.0% in one year is 24.112000000000002%
+The probability that the stock price will go up/down by 20.0% in one year is 24.224%
 
 
 Price of CAT at which simulation begins is $147.52000427246094
-The probability that the stock price will go up/down by 20.0% in one year is 38.68%
+The probability that the stock price will go up/down by 20.0% in one year is 38.888%
 
 
 Price of CSCO at which simulation begins is $47.59000015258789
-The probability that the stock price will go up/down by 20.0% in one year is 32.024%
+The probability that the stock price will go up/down by 20.0% in one year is 31.913999999999998%
 
 
 Price of CVX at which simulation begins is $119.8499984741211
-The probability that the stock price will go up/down by 20.0% in one year is 25.566%
+The probability that the stock price will go up/down by 20.0% in one year is 25.125999999999998%
 
 
 Price of GS at which simulation begins is $229.8000030517578
-The probability that the stock price will go up/down by 20.0% in one year is 58.788%
+The probability that the stock price will go up/down by 20.0% in one year is 58.802%
 
 
 Price of HD at which simulation begins is $217.30999755859375
-The probability that the stock price will go up/down by 20.0% in one year is 51.471999999999994%
+The probability that the stock price will go up/down by 20.0% in one year is 51.666000000000004%
 
 
 Price of HON at which simulation begins is $176.4199981689453
-The probability that the stock price will go up/down by 20.0% in one year is 63.002%
+The probability that the stock price will go up/down by 20.0% in one year is 63.232%
 
 
 Price of IBM at which simulation begins is $126.96940612792969
-The probability that the stock price will go up/down by 20.0% in one year is 36.402%
+The probability that the stock price will go up/down by 20.0% in one year is 36.442%
 
 
 Price of INTC at which simulation begins is $59.619998931884766
-The probability that the stock price will go up/down by 20.0% in one year is 50.129999999999995%
+The probability that the stock price will go up/down by 20.0% in one year is 49.696%
 
 
 Price of JNJ at which simulation begins is $145.3000030517578
-The probability that the stock price will go up/down by 20.0% in one year is 30.818%
+The probability that the stock price will go up/down by 20.0% in one year is 30.922%
 
 
 Price of KO at which simulation begins is $55.27000045776367
-The probability that the stock price will go up/down by 20.0% in one year is 38.596000000000004%
+The probability that the stock price will go up/down by 20.0% in one year is 38.85%
 
 
 Price of JPM at which simulation begins is $138.6300048828125
-The probability that the stock price will go up/down by 20.0% in one year is 71.966%
+The probability that the stock price will go up/down by 20.0% in one year is 72.086%
 
 
 Price of MCD at which simulation begins is $196.91000366210938
-The probability that the stock price will go up/down by 20.0% in one year is 28.322000000000003%
+The probability that the stock price will go up/down by 20.0% in one year is 27.748%
 
 
 Price of MMM at which simulation begins is $175.8300018310547
-The probability that the stock price will go up/down by 20.0% in one year is 12.742%
+The probability that the stock price will go up/down by 20.0% in one year is 12.844%
 
 
 Price of MRK at which simulation begins is $86.86068725585938
-The probability that the stock price will go up/down by 20.0% in one year is 43.216%
+The probability that the stock price will go up/down by 20.0% in one year is 43.044%
 
 
 Price of MSFT at which simulation begins is $157.58999633789062
-The probability that the stock price will go up/down by 20.0% in one year is 84.542%
+The probability that the stock price will go up/down by 20.0% in one year is 84.426%
 
 
 Price of NKE at which simulation begins is $100.80000305175781
-The probability that the stock price will go up/down by 20.0% in one year is 64.276%
+The probability that the stock price will go up/down by 20.0% in one year is 64.23%
 
 
 Price of PG at which simulation begins is $124.47000122070312
-The probability that the stock price will go up/down by 20.0% in one year is 68.362%
+The probability that the stock price will go up/down by 20.0% in one year is 68.386%
 
 
 Price of TRV at which simulation begins is $136.49000549316406
-The probability that the stock price will go up/down by 20.0% in one year is 37.078%
+The probability that the stock price will go up/down by 20.0% in one year is 36.452%
 
 
 Price of UNH at which simulation begins is $293.8500061035156
-The probability that the stock price will go up/down by 20.0% in one year is 43.208%
+The probability that the stock price will go up/down by 20.0% in one year is 43.408%
 
 
 Price of CRM at which simulation begins is $162.44000244140625
-The probability that the stock price will go up/down by 20.0% in one year is 42.024%
+The probability that the stock price will go up/down by 20.0% in one year is 42.576%
 
 
 Price of VZ at which simulation begins is $61.209999084472656
-The probability that the stock price will go up/down by 20.0% in one year is 23.346%
+The probability that the stock price will go up/down by 20.0% in one year is 23.474%
 
 
 Price of V at which simulation begins is $187.8300018310547
-The probability that the stock price will go up/down by 20.0% in one year is 72.676%
+The probability that the stock price will go up/down by 20.0% in one year is 72.434%
 
 
 Price of WBA at which simulation begins is $58.90999984741211
-The probability that the stock price will go up/down by 20.0% in one year is 8.368%
+The probability that the stock price will go up/down by 20.0% in one year is 8.63%
 
 
 Price of WMT at which simulation begins is $119.4000015258789
-The probability that the stock price will go up/down by 20.0% in one year is 57.374%
+The probability that the stock price will go up/down by 20.0% in one year is 58.266%
 
 
 Price of DIS at which simulation begins is $143.77000427246094
-The probability that the stock price will go up/down by 20.0% in one year is 57.238%
+The probability that the stock price will go up/down by 20.0% in one year is 57.254000000000005%
 
 
 Price of DOW at which simulation begins is $54.34000015258789
@@ -128,13 +128,8 @@ The probability that the stock price will go up/down by 20.0% in one year is 0.0
 
 
 Price of VOO at which simulation begins is $295.0400085449219
-The probability that the stock price will go up/down by 20.0% in one year is 60.45399999999999%
+The probability that the stock price will go up/down by 20.0% in one year is 60.751999999999995%
 
-Here are the probabilities of the stocks:
-[0.58086, 0.50554, 0.92832, 0.24112, 0.3868, 0.32024, 0.25566, 0.58788, 0.51472, 0.63002, 0.36402, 0.5013, 0.30818, 0.38596, 0.71966, 0.28322, 0.12742, 0.43216, 0.84542, 0.64276, 0.68362, 0.37078, 0.43208, 0.42024, 0.23346, 0.72676, 0.08368, 0.57374, 0.57238, 0.0, 0.60454]
-
-Here are the suggestions:
-[('AXP', 'Next stock'), ('AMGN', 'Next stock'), ('AAPL', 'Buy'), ('BA', 'Next stock'), ('CAT', 'Next stock'), ('CSCO', 'Next stock'), ('CVX', 'Next stock'), ('GS', 'Next stock'), ('HD', 'Next stock'), ('HON', 'Buy'), ('IBM', 'Next stock'), ('INTC', 'Next stock'), ('JNJ', 'Next stock'), ('KO', 'Next stock'), ('JPM', 'Buy'), ('MCD', 'Next stock'), ('MMM', 'Next stock'), ('MRK', 'Next stock'), ('MSFT', 'Buy'), ('NKE', 'Buy'), ('PG', 'Buy'), ('TRV', 'Next stock'), ('UNH', 'Next stock'), ('CRM', 'Next stock'), ('VZ', 'Next stock'), ('V', 'Buy'), ('WBA', 'Next stock'), ('WMT', 'Next stock'), ('DIS', 'Next stock'), ('DOW', 'Next stock'), ('VOO', 'Buy')]
 
 Ticker Symbol:AXP       Suggestion:Next stock   20% Gain Price:149.16000366210938       Real Price:118.13999938964844   Decision: Predicted Correctly 2nd Step
 
@@ -198,6 +193,12 @@ Ticker Symbol:DOW       Suggestion:Next stock   20% Gain Price:65.20800018310547
 
 Ticker Symbol:VOO       Suggestion:Buy  20% Gain Price:354.0480102539062        Real Price:341.3900146484375    Decision: Predicted INCorrectly
 
+Correct BUY predictions:3       INcorrect BUY predictions:5     Total BUY predictions:8
+Percent of correct BUY predictions: 38%
+
+Correct NEXT predictions:19     INcorrect NEXT predictions:4    Total NEXT predictions:23
+Percent of correct NEXT predictions: 83%
+
 Number of correct predictions: 22
 Percent of correct predictions: 71%
 
@@ -205,3 +206,5 @@ Number of INcorrect predictions: 9
 Percent of INcorrect predictions: 29%
 
 Number of predictions: 31
+
+Assume threshold value of 20% and confidence level of 60%

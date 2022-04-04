@@ -1,0 +1,213 @@
+[------------------- Downloading all stock data from yfinance -------------------]
+
+[*********************100%***********************]  31 of 31 completed
+
+1 Failed download:
+- DOW: Data doesn't exist for startDate = 1514782800, endDate = 1546232400
+[*********************100%***********************]  31 of 31 completed
+
+Starting Monte Carlo simulation all the stocks in the DOW. Number of simulations: 50000
+
+[------------------- Monte Carlo simulation of all stocks completed successfully -------------------]
+
+Price of AXP at which simulation begins is $94.41999816894531
+The probability that the stock price will go up/down by 20.0% in one year is 15.040000000000001%
+
+
+Price of AMGN at which simulation begins is $190.72999572753906
+The probability that the stock price will go up/down by 20.0% in one year is 27.374%
+
+
+Price of AAPL at which simulation begins is $39.057498931884766
+The probability that the stock price will go up/down by 20.0% in one year is 16.134%
+
+
+Price of BA at which simulation begins is $316.3800048828125
+The probability that the stock price will go up/down by 20.0% in one year is 30.124000000000002%
+
+
+Price of CAT at which simulation begins is $125.61000061035156
+The probability that the stock price will go up/down by 20.0% in one year is 8.426%
+
+
+Price of CSCO at which simulation begins is $42.77000045776367
+The probability that the stock price will go up/down by 20.0% in one year is 32.046%
+
+
+Price of CVX at which simulation begins is $108.6500015258789
+The probability that the stock price will go up/down by 20.0% in one year is 6.859999999999999%
+
+
+Price of GS at which simulation begins is $163.02999877929688
+The probability that the stock price will go up/down by 20.0% in one year is 1.302%
+
+
+Price of HD at which simulation begins is $170.22000122070312
+The probability that the stock price will go up/down by 20.0% in one year is 9.87%
+
+
+Price of HON at which simulation begins is $130.75999450683594
+The probability that the stock price will go up/down by 20.0% in one year is 5.888%
+
+
+Price of IBM at which simulation begins is $108.05927276611328
+The probability that the stock price will go up/down by 20.0% in one year is 2.896%
+
+
+Price of INTC at which simulation begins is $46.75
+The probability that the stock price will go up/down by 20.0% in one year is 24.122%
+
+
+Price of JNJ at which simulation begins is $127.2699966430664
+The probability that the stock price will go up/down by 20.0% in one year is 9.764000000000001%
+
+
+Price of KO at which simulation begins is $47.20000076293945
+The probability that the stock price will go up/down by 20.0% in one year is 13.944%
+
+
+Price of JPM at which simulation begins is $96.83000183105469
+The probability that the stock price will go up/down by 20.0% in one year is 9.408%
+
+
+Price of MCD at which simulation begins is $175.55999755859375
+The probability that the stock price will go up/down by 20.0% in one year is 16.596%
+
+
+Price of MMM at which simulation begins is $189.3699951171875
+The probability that the stock price will go up/down by 20.0% in one year is 4.226%
+
+
+Price of MRK at which simulation begins is $71.91793823242188
+The probability that the stock price will go up/down by 20.0% in one year is 62.717999999999996%
+
+
+Price of MSFT at which simulation begins is $100.38999938964844
+The probability that the stock price will go up/down by 20.0% in one year is 38.690000000000005%
+
+
+Price of NKE at which simulation begins is $73.33999633789062
+The probability that the stock price will go up/down by 20.0% in one year is 37.794%
+
+
+Price of PG at which simulation begins is $91.18000030517578
+The probability that the stock price will go up/down by 20.0% in one year is 14.149999999999999%
+
+
+Price of TRV at which simulation begins is $118.23999786376953
+The probability that the stock price will go up/down by 20.0% in one year is 7.585999999999999%
+
+
+Price of UNH at which simulation begins is $246.24000549316406
+The probability that the stock price will go up/down by 20.0% in one year is 31.762%
+
+
+Price of CRM at which simulation begins is $134.67999267578125
+The probability that the stock price will go up/down by 20.0% in one year is 48.354%
+
+
+Price of VZ at which simulation begins is $55.27000045776367
+The probability that the stock price will go up/down by 20.0% in one year is 18.738%
+
+
+Price of V at which simulation begins is $130.94000244140625
+The probability that the stock price will go up/down by 20.0% in one year is 36.124%
+
+
+Price of WBA at which simulation begins is $68.05000305175781
+The probability that the stock price will go up/down by 20.0% in one year is 12.524%
+
+
+Price of WMT at which simulation begins is $92.12999725341797
+The probability that the stock price will go up/down by 20.0% in one year is 12.581999999999999%
+
+
+Price of DIS at which simulation begins is $107.30000305175781
+The probability that the stock price will go up/down by 20.0% in one year is 11.784%
+
+
+Price of DOW at which simulation begins is $nan
+The probability that the stock price will go up/down by 20.0% in one year is 0.0%
+
+
+Price of VOO at which simulation begins is $227.75999450683594
+The probability that the stock price will go up/down by 20.0% in one year is 5.9319999999999995%
+
+
+Ticker Symbol:AXP       Suggestion:Next stock   20% Gain Price:113.30399780273437       Real Price:125.19000244140625   Decision: Predicted INCorrectly
+
+Ticker Symbol:AMGN      Suggestion:Next stock   20% Gain Price:228.87599487304686       Real Price:241.52999877929688   Decision: Predicted INCorrectly
+
+Ticker Symbol:AAPL      Suggestion:Next stock   20% Gain Price:46.868998718261714       Real Price:72.44999694824219    Decision: Predicted INCorrectly
+
+Ticker Symbol:BA        Suggestion:Next stock   20% Gain Price:379.656005859375 Real Price:330.1400146484375    Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:CAT       Suggestion:Next stock   20% Gain Price:150.73200073242188       Real Price:148.27999877929688   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:CSCO      Suggestion:Next stock   20% Gain Price:51.3240005493164 Real Price:47.77000045776367    Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:CVX       Suggestion:Next stock   20% Gain Price:130.38000183105467       Real Price:120.30000305175781   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:GS        Suggestion:Next stock   20% Gain Price:195.63599853515623       Real Price:230.66000366210938   Decision: Predicted INCorrectly
+
+Ticker Symbol:HD        Suggestion:Next stock   20% Gain Price:204.26400146484374       Real Price:219.97000122070312   Decision: Predicted INCorrectly
+
+Ticker Symbol:HON       Suggestion:Next stock   20% Gain Price:156.91199340820313       Real Price:176.47999572753906   Decision: Predicted INCorrectly
+
+Ticker Symbol:IBM       Suggestion:Next stock   20% Gain Price:129.67112731933594       Real Price:129.32122802734375   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:INTC      Suggestion:Next stock   20% Gain Price:56.1     Real Price:60.08000183105469    Decision: Predicted INCorrectly
+
+Ticker Symbol:JNJ       Suggestion:Next stock   20% Gain Price:152.72399597167967       Real Price:145.75       Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:KO        Suggestion:Next stock   20% Gain Price:56.640000915527345       Real Price:55.349998474121094   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:JPM       Suggestion:Next stock   20% Gain Price:116.19600219726561       Real Price:139.13999938964844   Decision: Predicted INCorrectly
+
+Ticker Symbol:MCD       Suggestion:Next stock   20% Gain Price:210.6719970703125        Real Price:198.1699981689453    Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:MMM       Suggestion:Next stock   20% Gain Price:227.243994140625 Real Price:177.25999450683594   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:MRK       Suggestion:Buy  20% Gain Price:86.30152587890625        Real Price:87.30915832519531    Decision: Predicted Correctly 1st Step
+
+Ticker Symbol:MSFT      Suggestion:Next stock   20% Gain Price:120.46799926757812       Real Price:158.9600067138672    Decision: Predicted INCorrectly
+
+Ticker Symbol:NKE       Suggestion:Next stock   20% Gain Price:88.00799560546875        Real Price:101.56999969482422   Decision: Predicted INCorrectly
+
+Ticker Symbol:PG        Suggestion:Next stock   20% Gain Price:109.41600036621094       Real Price:126.08999633789062   Decision: Predicted INCorrectly
+
+Ticker Symbol:TRV       Suggestion:Next stock   20% Gain Price:141.88799743652342       Real Price:136.8000030517578    Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:UNH       Suggestion:Next stock   20% Gain Price:295.4880065917969        Real Price:295.9700012207031    Decision: Predicted INCorrectly
+
+Ticker Symbol:CRM       Suggestion:Next stock   20% Gain Price:161.6159912109375        Real Price:164.97999572753906   Decision: Predicted INCorrectly
+
+Ticker Symbol:VZ        Suggestion:Next stock   20% Gain Price:66.32400054931641        Real Price:61.529998779296875   Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:V Suggestion:Next stock   20% Gain Price:157.12800292968748       Real Price:189.38999938964844   Decision: Predicted INCorrectly
+
+Ticker Symbol:WBA       Suggestion:Next stock   20% Gain Price:81.66000366210938        Real Price:59.02000045776367    Decision: Predicted Correctly 2nd Step
+
+Ticker Symbol:WMT       Suggestion:Next stock   20% Gain Price:110.55599670410156       Real Price:119.58999633789062   Decision: Predicted INCorrectly
+
+Ticker Symbol:DIS       Suggestion:Next stock   20% Gain Price:128.76000366210937       Real Price:145.75       Decision: Predicted INCorrectly
+
+Ticker Symbol:DOW       Suggestion:Next stock   20% Gain Price:nan      Real Price:54.83000183105469    Decision: Predicted INCorrectly
+
+Ticker Symbol:VOO       Suggestion:Next stock   20% Gain Price:273.31199340820314       Real Price:296.6700134277344    Decision: Predicted INCorrectly
+
+Correct BUY predictions:1       INcorrect BUY predictions:0     Total BUY predictions:1
+Percent of correct BUY predictions: 100%
+
+Correct NEXT predictions:12     INcorrect NEXT predictions:18   Total NEXT predictions:30
+Percent of correct NEXT predictions: 40%
+
+Number of correct predictions: 13
+Percent of correct predictions: 42%
+
+Number of INcorrect predictions: 18
+Percent of INcorrect predictions: 58%
+
+Number of predictions: 31
+
+Assume threshold value of 20% and confidence level of 60%

@@ -6,9 +6,9 @@ from stock_analysis import *
 
 # Range from which data will be taken:
 # Analyzing data from 2020 and predicting 2021 results...
-start_date = "2019-01-01"
-end_date = "2019-12-31"
-pred_date = "2020-12-26"  # Date for a stock (stock market is about 250 days/year of information)
+start_date = "2017-01-01"
+end_date = "2017-12-31"
+pred_date = "2018-12-26"  # Date for a stock (stock market is about 250 days/year of information)
 # pred_date = "2023-05-26" # Date for crypto (Crypto is 365 days/year of information)
 
 # Analyzing data from 2021 and predicting 2022 results...
@@ -36,7 +36,7 @@ data = yf.download(tickers=comp_stocks, group_by="ticker", start=start_date,
                    end=end_date)
 
 real_data = yf.download(tickers=comp_stocks, group_by="ticker", start=pred_date,
-                   end="2020-12-30")
+                   end="2018-12-30")
 
 analysis_results = []
 stock_initial_prices = []
@@ -78,10 +78,15 @@ for ticker in comp_stocks.split():
 
 # real_results = [ticker_symbol, actual_stock_price]
 
+print("The threshold value is {}%; The confidence level value is {}%".format((threshold-1)*100, confidence_level*100))
+
+num_incorrect_buy = 0
+num_incorrect_next = 0
+num_correct_next = 0
+num_correct_buy = 0
 predicted_correctly = 0
 predicted_incorrectly = 0
 num_predictions = 0
-
 for num in range(0,len(real_results)):
     if real_results[num][0] == suggestions[num][0]:
         if real_results[num][1] > 1.2*stock_initial_prices[num] and suggestions[num][1] == "Buy":
@@ -94,6 +99,7 @@ for num in range(0,len(real_results)):
                                                                                                        num],
                                                                                                    real_results[num][1],
                                                                                                     "Predicted Correctly 1st Step"))
+            num_correct_buy += 1
         elif real_results[num][1] < 1.2*stock_initial_prices[num] and suggestions[num][1] == "Next stock":
             predicted_correctly += 1
             num_predictions += 1
@@ -105,7 +111,14 @@ for num in range(0,len(real_results)):
                     num],
                 real_results[num][1],
                 "Predicted Correctly 2nd Step"))
+            num_correct_next += 1
         else:
+
+            if suggestions[num][1] == "Buy":
+                num_incorrect_buy += 1
+            elif suggestions[num][1] == "Next stock":
+                num_incorrect_next += 1
+
             predicted_incorrectly += 1
             num_predictions += 1
             print("\nTicker Symbol:{}\tSuggestion:{}\t20% Gain Price:{}\tReal Price:{}\tDecision: {}".format(
@@ -118,6 +131,16 @@ for num in range(0,len(real_results)):
                 "Predicted INCorrectly"))
     else:
         print("Ticker symbols of stocks are not matching...")
+
+print("\nCorrect BUY predictions:{}\tINcorrect BUY predictions:{}\tTotal BUY predictions:{}".format(num_correct_buy,
+                                                                                                    num_incorrect_buy,
+                                                                                                    (num_correct_buy+num_incorrect_buy)))
+print("Percent of correct BUY predictions: {}%".format(round(100*num_correct_buy/(num_incorrect_buy+num_correct_buy)), 2))
+
+print("\nCorrect NEXT predictions:{}\tINcorrect NEXT predictions:{}\tTotal NEXT predictions:{}".format(num_correct_next,
+                                                                                                    num_incorrect_next,
+                                                                                                    (num_correct_next+num_incorrect_next)))
+print("Percent of correct NEXT predictions: {}%".format(round(100*num_correct_next/(num_incorrect_next+num_correct_next)), 2))
 
 print("\nNumber of correct predictions: {}".format(predicted_correctly))
 print("Percent of correct predictions: {}%".format(round(100*predicted_correctly/num_predictions), 2))

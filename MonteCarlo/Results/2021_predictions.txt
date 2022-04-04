@@ -143,3 +143,5 @@ Number of INcorrect predictions: 11
 Percent of INcorrect predictions: 35
 
 Number of predictions: 31
+
+Assume threshold value of 20% and confidence level of 60%
