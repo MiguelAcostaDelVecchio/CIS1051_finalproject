@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 # Range from which data will be taken
 start_date = "2021-01-01"
 end_date = "2021-12-31"
-# pred_date = "2022-12-19" # Date for a stock
-pred_date = "2023-05-26" # Date for crypto
+pred_date = "2022-12-19" # Date for a stock (stock market is about 250 days/year of information)
+# pred_date = "2023-05-26" # Date for crypto (Crypto is 365 days/year of information)
 
 # ETFs that track the S&P500 include: VOO, IVV, and SPLG
 stock = input("Please input stock to analyze: ").upper()
@@ -116,7 +116,7 @@ plt.show()
 
 # What is the probability of the stock price going up by at least 20% after 1 year?
 cnt = 0
-threshold = 0.2
+threshold = 1.2
 for i in range(num_simulations):
     if threshold >= 1:
         if (S[i, -1]/So) > threshold:
