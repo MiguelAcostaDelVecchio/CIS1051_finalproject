@@ -1,0 +1,4 @@
+Please input stock to analyze: aapl
+[*********************100%***********************]  2 of 2 completed
+Initial price of AAPL is $178.1999969482422
+The probability that the stock price will go up/down by 20.0% at the end of 2022 is 63.980000000000004%

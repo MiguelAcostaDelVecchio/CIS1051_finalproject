@@ -1,0 +1,4 @@
+Please input stock to analyze: msft
+[*********************100%***********************]  2 of 2 completed
+Initial price of MSFT is $339.32000732421875
+The probability that the stock price will go up/down by 20.0% at the end of 2022 is 82.23333333333333%
