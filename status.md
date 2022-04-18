@@ -18,7 +18,8 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-Initial research about Monte Carlo simulations, and possible API's to get stock data.
+I just finished the MonteCarlo part of the project. I am currently researching ways to get the machine learning part of 
+the project working. 
 
 #### What have you not done for your project yet?
 
