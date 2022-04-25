@@ -24,7 +24,7 @@ pred_date = "2018-12-26"  # Date for a stock (stock market is about 250 days/yea
 # pred_date = "2022-12-19"  # Date for a stock (stock market is about 250 days/year of information)
 # pred_date = "2023-05-26" # Date for crypto (Crypto is 365 days/year of information)
 
-# To test the how well the program works, I will analyze all of the stocks in DOW
+# To test how well the program works, I will analyze all of the stocks in DOW
 dow_stocks = "AXP AMGN AAPL BA CAT CSCO CVX GS HD HON IBM INTC JNJ KO JPM MCD MMM MRK MSFT NKE PG TRV UNH CRM " \
              "VZ V WBA WMT DIS DOW"
 comp_stocks = dow_stocks + " VOO"
