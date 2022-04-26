@@ -29,3 +29,11 @@ trying to understand some research done of Monte Carlo simulation and machine le
 code becomes really abstract and difficult to understand (specially the machine learning program). Even though, the 
 task of reading documentation and testing was really time consuming, I really learned and appreciated how sophiticated
 but simple (given enough time to understand them) these programs really are. 
+
+It is also important to note that there were a lot of problems with conflicting libraries, so it was really fascinating 
+to see how there were a lot of compatability issues between libraries and be able to use the python package manager in 
+Pycharm to change some of the libraries to some older versions or uninstall them if necessary. Being able to debug such
+issues was very time consuming but it goes to show that not all code works together like magic!
+
+## Youtube Video
+
