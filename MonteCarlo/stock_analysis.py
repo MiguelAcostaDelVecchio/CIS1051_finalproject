@@ -100,3 +100,5 @@ def buy_stock(stock_name, prob, confidence):
         return stock_name, "Buy"
     else:
         return stock_name, "Next stock"
+
+

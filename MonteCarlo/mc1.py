@@ -127,3 +127,5 @@ for i in range(num_simulations):
 prob = cnt/num_simulations
 print("Initial price of {} is ${}".format(stock, So))
 print("The probability that the stock price will go up/down by {}% at the end of 2022 is {}%".format(round((threshold-1)*100,2), prob*100))
+
+
