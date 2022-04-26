@@ -36,4 +36,4 @@ Pycharm to change some of the libraries to some older versions or uninstall them
 issues was very time consuming but it goes to show that not all code works together like magic!
 
 ## Youtube Video
-
+https://youtu.be/RMzqux_sAhA 
